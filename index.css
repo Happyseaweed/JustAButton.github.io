@@ -16,6 +16,7 @@ EDE6DB
 body {
     overflow: hidden;
     background-color: #EDE6DB;
+    background-color: #417D7A;
 }
 
 a {
@@ -27,6 +28,7 @@ a {
     width: 100%;
     height: 25vh;
     background-color: #EDE6DB;
+    transition-duration: 0.3s;
 }
 
 .left-section {
@@ -34,15 +36,18 @@ a {
     height: 50vh;
     display:inline-block;
     background-color: #EDE6DB;
+    z-index: 1;
+    transition-duration: 0.3s;
 }
 
 .central-section {
     width: 100%;
-    height: 50%;
+    height: 50vh;
     display: inline-block;
 /*    border: 1px solid black;*/
     background-color: #EDE6DB;
     align-content: center;
+    transition-duration: 0.3s;
 }
 
 .circle {
@@ -76,23 +81,26 @@ a {
 }
 
 
-
 /*  ----------------------------------------- */
 .right-section {
     width: 100%;
     height: 50vh;
     display: inline-block;
     background-color: #EDE6DB;
+    z-index: -1;
+    transition-duration: 0.3s;
 }
 
 .mid-section {
     display:flex;
     justify-content: space-between;
+    transition-duration: 0.3s;
 }
 
 .bottom-section {
     width: 100%;
     height: 25vh;
     background-color: #EDE6DB;
+    transition-duration: 0.3s;
 }
 
